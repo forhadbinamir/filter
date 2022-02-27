@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <div class="d-flex justify-content-center my-5">
+        <button class="p-4 btn btn-primary px-5 border-0" style="outline:none; box-shadow: none;">Filter</button>
+        <button onclick="allFood()" class="p-4 px-5 btn btn-secondary border border-info border-2"
+            style="outline:none; box-shadow: none;">All Food</button>
+        <button onclick="loadFish()" class="p-4 px-5 btn btn-secondary border border-info border-2"
+            style="outline:none; box-shadow: none;">Fish</button>
+        <button onclick="loadChiken()" class="p-4 px-5 btn btn-secondary border border-info border-2"
+            style="outline:none; box-shadow: none;">Chiken</button>
+        <button onclick="" class="p-4 px-5 btn btn-secondary border border-info border-2"
+            style="outline:none; box-shadow: none;">Beef coming soon</button>
+        <button onclick="loadUsers()" class="p-4 px-5 btn btn-secondary border border-info border-2"
+            style="outline:none; box-shadow: none;">User Profile</button>
+    </div>
+
+
+    <!-- Card details  -->
+    <div id="card-details" class="card w-75 mx-auto mb-4">
+    </div>
+    <div id="food-container" class="row g-4 rounded-5">
+
+    </div>
+
+    <!-- fish items  -->
+
+    <div id="fish-items" class="fish-items row g-4">
+
+    </div>
+
+    <!-- Fish details  -->
+    <div id="fish-details" class="row">
+
+    </div>
+
+    <!-- chiken details  -->
+    <div id="chicken-card" class="row">
+
+    </div>
+
+    <!-- uset details  -->
+    <div id="user-profile" class="row row-cols-1 row-cols-md-4 g-3">
+
+    </div>
+
+
+    <div id="user-details" class=" mx-auto mt-5 row">
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+    <!-- <script src="fish.js"></script> -->
+</body>
+
+</html>
